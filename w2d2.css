@@ -4,17 +4,27 @@ p {
     color: white;
   }
   
-  .main-content-div {
+  .main-content-div2 {
     display: flex;
     flex-direction: column;
+    
   }
-  
   .mid-content-div {
-    display: flex;
+
     flex: row;
   }
-  
+  .main-content-div3 {
+    display: flex
+    justify-content: row;
+  }
+
+
   .sub-content-div {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+  }
+
+  h1 {
+      display: flex;
+      justify-content: center;
   }
